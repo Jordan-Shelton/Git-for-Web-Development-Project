@@ -57,15 +57,18 @@ link to finished codepen:https://codepen.io/kreepsicle/pen/bGgrjEr?editors=1100
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     text-transform:/what you want/;
     28. How do I add a 1px border around my div that is dotted and black?
-
+    div{
+        border-style:dotted;
+        border-color:black;
+    }
     29. How do I select everything on the page? 
-
+    with the * selector 
     30. How do I write a comment in CSS?
-
+    /*note in here*/
     31. How do I find out what file I am in, when I am using the command line? 
     pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    li 
+    ls 
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
     rm or rm -r/you have to be careful because you don't get a prompt and if it's a folder it deletes everything inside as well
     34. Why should I use version control? 
@@ -73,9 +76,13 @@ link to finished codepen:https://codepen.io/kreepsicle/pen/bGgrjEr?editors=1100
     35. How often should I commit to github?
     every 20 minutes or when you complete a portion of your code
     36. What is the command we would use to push our repo up to github?
-
+    git push -u origin jordan-shelton
     37. Walk me through Lambda's git flow. 
-    
+    we are given an asignment on git i fork it get the url and clone it (git clone url)
+    cd into repo then branch (git checkout -b jordan-shelton) then enter code . to load it in vs do the work
+    then add the changes in the terminal (git add .) then commit the changes and add a useful comment about the changes
+    (git commit -m "message here") then you push the changes back to the github  (git push -u origin jordan-shelton)
+    then go to github and submit the changes and do not merge them. then copy the url and paste it in canvas.
 
 Stretch Questions
 
